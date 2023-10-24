@@ -1,9 +1,17 @@
 let titulo = document.querySelector('h1');
-titulo.innerHTML = 'Hora do desafio';
+titulo.innerHTML = 'Jogo do número secreto';
 
-function exibirMensagemNoConsole() 
+let paragrafo = document.querySelector('p');
+paragrafo.innerHTML = 'Escolha um número entre 1 e 10, por favor:';
+
+function verificarChute()
 {
     console.log('O botão foi clicado.');
+}
+
+function exibirMensagemNoConsole()
+{
+    console.log('O botão foi clicado!');
 }
 
 function exibirAlerta()
